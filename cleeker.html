@@ -1,98 +1,57 @@
-<doctype HTML>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BLORB CLEEKER</title>
+  <!-- Favicon using YEAST.gif -->
+  <link rel="icon" href="YEAST.gif" type="image/gif">
+  <link rel="stylesheet" href="HTML project.css">
+  <script src="functions.js" defer></script>
+</head>
+<body>
+  <div class="eee">
+    <h1 id="h1d">click area</h1>
+    <br>
+    <button id="res" onclick="RESET()">RESET</button>
 
-       
-   
-    
-        <script src="functions.js" defer>
- var clicks = 0;
-var clp = 1;
-var co=10;
-var starter=1;
-var bps=0;
-          
-        </script>
-          <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="HTML project.css">
-        <title>
-             BLORB CLEEKER
-         </title>
-        <link rel="icon" type="image/gif" href="YEAST.gif">
-    </head>
+    <img src="YEAST.gif" class="butehon" alt="blorb" onclick="handleClick()">
 
-    
-      <body>
-         
-        <div class="eee">
-            <h1 id="h1d">
-                click area
-            </h1>
-            <br>
-        <button id="res" onclick="RESET()">
-            RESET
-        </button>
-    
-        <img src="YEAST.gif" class="butehon" onclick="clicks = clicks+clp;
-    document.getElementById('num').innerHTML = clicks;
-            document.getElementById('1').innerHTML = 'eee';
-            document.getElementByClassName('nuum').innerHTML = clicks;
-    
-    
-        ">
-            <raw color=green>
-            blorbs:
-            </raw>
-            <num id="num">
-            <---click</num>
+    <div>blorbs: <span id="num">&lt;---click</span></div>
 
-            <br>
-            more coming soon
-      </div>
-   <div class="yey">     
-       <!-- the middle section -->
-<pre>
-    hover    /\       |
-                 |      \/
- 
+    <br>
+    more coming soon
+  </div>
 
-</pre>    <num class="nuum">
-            <---click</num> <div id="use">
-      <button  class="SAVE" onclick="SAVE()" ><img src="empty.png"><div align=left></div></button>
-    <button onclick="RESET();
-        document.getElementById('num').innerHTML = clicks;
-            document.getElementById('nuum').innerHTML = clicks;
-        document.write('ooo');
-        load()">load</button></div></div>
+  <div class="yey">
+    <!-- the middle section -->
+    <pre>
+hover    /\       |
+             |      \/
+    </pre>
 
-<!--user interface-->
+    <div class="nuum">&lt;---click</div>
 
-<!-- upgrade section-->
+    <div id="use">
+      <button class="SAVE" onclick="SAVE()"><img src="imgs/empty.png" alt="save"></button>
+      <button onclick="RESET(); updateDisplays(); document.write('ooo'); load()">load</button>
+    </div>
+  </div>
 
-        <div class="buttonarea">
-        <h1>
-            upgrades
-        </h1>
-        <raw>blorbs:</raw>
-            <num class="nuum">
-                none
-            </num>
-            <br>
-    <button onclick="upone()" class="upgrade">
-    +1 blorb per click 
-    </button><raw>cost: </raw><num id="2222" color="red">10</num> <raw>blorbs</raw>
+  <!-- user interface -->
 
-<br>
-    <button>
-        +3 beelorbez pour cleek(not working)
-    </button>
-</div>
+  <!-- upgrade section -->
+  <div class="buttonarea">
+    <h1>upgrades</h1>
+    <div>blorbs: <span class="nuum">none</span></div>
+    <br>
+    <button onclick="upone()" class="upgrade">+1 blorb per click</button>
+    <span>cost: </span><span id="2222" style="color:red">10</span> <span>blorbs</span>
+    <br>
+    <button disabled>+3 beelorbez pour cleek(not working)</button>
+  </div>
 
-
-         
-    </body>
-    <footer id="1">
-        I am Da footer. you are in da gaem called blorb clicker. blorbs maey halp yuo on yuor journey to dominate the universe with blorbs. you kan nouw put the mouuse overe teext or oother stoof to mak it bee-gar
-    </footer>
-
-        
-</doctype>
+  <footer id="1">
+    I am Da footer. you are in da gaem called blorb clicker. blorbs maey halp yuo on yuor journey to dominate the universe with blorbs. you kan nouw put the mouuse overe teext or oother stoof to m[...]
+  </footer>
+</body>
+</html>
