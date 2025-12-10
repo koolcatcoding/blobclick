@@ -1,0 +1,153 @@
+body{
+    margin:1;
+}
+.save{
+    background-image:url(imgs/two.png);
+    width:50;
+    height:60;
+    
+}
+.save:hover{
+    background-image:url(imgs/save.gif);
+    background-color:black;
+    border-color:blue;
+    border-radius:0px;
+}
+psst{
+    color:black
+}
+footer{
+    background-image:url(imgs/tab.png);
+    color:#00000000;
+    height:5vh;
+    
+    size:0px;
+    transition-duration:0.5s;
+    position:10px;
+    layer:1;
+  
+}
+footer:hover{
+    background:green;
+    color:black;
+    size:20px;
+    height:30vh;
+    layer:front;
+    flex-wrap:right;
+   
+    transition-duration:0.5s;
+}
+.h1d{
+    position: bottom left;
+}
+.eee{
+ height:75vh;
+    background:black;
+    filter:brightness(0.01);
+    transition-duration:0.5s;
+        }
+.eee:hover{
+ height:75vh;
+    background-image:url(imgs/bg2.png);
+    filter:brightness(1);
+    transition-duration:0.5s;
+        }
+
+.buttonarea{
+    height:30vh;
+    filter:brightness(0);
+    width:auto;
+    background:black;
+    transition-duration:1s;
+}
+body{
+    background:black;
+    color:white
+}
+.buttonarea:hover{
+    height:50vh;
+    filter:brightness(1);
+    background-image:url(YEAST.gif);
+    transition-duration:0.7s;
+}
+
+button{
+    background-color:black;
+    border-radius:-10px;
+   color:blue; 
+    transtion-duration: 0.5s;
+    border: solid #120827 5px;
+}
+raw{
+    font-family:noto sans;
+    transition-duration:0.2s;
+    background:none;
+}
+raw:hover{
+    font-family:noto sans;
+    transition-duration:0.2s;
+    font-size:30px;
+    align:fixed;
+    background:#12082603;
+    
+}
+num{
+    color:lightgreen;
+    font-family:sans;
+    transition-duration:0.1s;
+    background:none
+    
+    
+}
+num:hover{
+    color:lightgreen;
+    font-family:noto sans;
+    font-size:50px;
+    transition-duration:0.1s;
+    align:fixed;
+    background:#12082603;
+}
+.butehon{
+    filter:hue-rotate(0deg);
+    border-radius:0px;
+    filter:brightness(0.5);
+    transform:rotateZ(0deg);
+    height:50px;
+    width:auto;
+    transition-duration:5s;
+    
+    
+}
+.butehon:hover{
+    filter:hue-rotate(20deg);
+    border-radius:150px;
+    filter:brightness(1.2);
+    transform:rotatez(144000deg);
+    height:300px;
+    width:auto;
+    transition-duration:1.5s;
+}
+.upgrade{
+     background-color:yellow;
+    border-radius:15px;
+   color:blue; 
+    
+    border: solid blue 5px;
+}
+.upgrade:hover{
+    color: yellow;
+    background-color:blue;
+    font-size:17px;
+    border-radius:1px;
+    transition-duration:0.8s;
+    border: solid yellow 3px;
+}
+button:hover{
+    color: green;
+    background:orange;
+    border-radius:30px;
+    transition-duration:0.3s;
+    border: solid green 2px;
+    font-size:17px;
+    
+    }
